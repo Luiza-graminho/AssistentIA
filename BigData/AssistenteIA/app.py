@@ -2,7 +2,7 @@ from typing import List
 import warnings
 warnings.filterwarnings("ignore", category=UserWarning)
 
-import streamlit as st
+import streamlit as st 
 from llama_index.core.llms import ChatMessage
 from llama_index.llms.ollama import Ollama
 from llama_index.core import Settings
@@ -18,7 +18,7 @@ Settings.llm = llm
 
 # Inicializar cliente ChromaDB
 chroma_client = chromadb.Client()
-collection_name = "triagem_hci"
+collection_name = "imunidade"
 collections = chroma_client.list_collections()
 
 # Criar ou obter coleção
@@ -28,13 +28,13 @@ else:
     collection = chroma_client.create_collection(name=collection_name)
 
 # Interface Streamlit
-st.title("Assistente de Triagem Clínica - HCI")
+st.title("Assistente de Doenças do Sangue e dos Órgãos Hematopoéticos e alguns Transtornos imunitários")
 
-new_case = st.text_area("Descreva os sintomas do paciente na triagem")
+new_case = st.text_area("Descreva os sintomas")
 
-if st.button("Classificar e gerar conduta"):
+if st.button("Analisar possíveis diagnósticos"):
     if new_case:
-        with st.spinner("Classificando..."):
+        with st.spinner("Analisando..."):
 
             # Carrega apenas agora
             from sentence_transformers import SentenceTransformer
@@ -77,9 +77,9 @@ if st.button("Classificar e gerar conduta"):
 
             try:
                 resposta = llm.chat(messages)
-                st.subheader("Resultado da Triagem")
+                st.subheader("Resultado da Análise")
                 st.write(str(resposta))
             except Exception as e:
                 st.error(f"Ocorreu um erro ao consultar o modelo: {e}")
     else:
-        st.warning("Por favor, insira os sintomas do paciente.")
+        st.warning("Por favor, insira os sintomas.")

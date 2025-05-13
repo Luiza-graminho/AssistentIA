@@ -1,21 +1,50 @@
-Paciente do sexo masculino, 58 anos, com dor torácica intensa há 20 minutos, irradiação para o braço esquerdo, sudorese, PA 180/100 mmHg. Classificação: Vermelha. Encaminhamento: Atendimento imediato na sala de emergência.
-Paciente jovem, 24 anos, com febre de 38,5ºC, tosse seca, dor de garganta e cefaleia há 3 dias. Saturação de oxigênio: 97%. Classificação: Verde. Encaminhamento: Consultório clínico para avaliação ambulatorial.
-Paciente idoso, 79 anos, com confusão mental súbita, pressão arterial 90/60 mmHg, glicemia capilar 60 mg/dL. Sem sinais de trauma. Classificação: Amarela. Encaminhamento: Avaliação médica prioritária e monitoramento.
-Paciente com vômito persistente e dor abdominal difusa há 6 horas, sem sinais de desidratação severa. Frequência cardíaca: 92 bpm. Classificação: Amarela. Encaminhamento: Sala de observação e hidratação venosa.
-Paciente com escoriações superficiais em joelho direito após queda de bicicleta. Sem dor significativa, sem fratura aparente. Classificação: Azul. Encaminhamento: Atendimento ambulatorial para curativo.
-Paciente com crise convulsiva ativa no momento da triagem, sem histórico conhecido. Classificação: Vermelha. Encaminhamento: Sala de emergência para contenção e avaliação neurológica.
-Paciente gestante, 36 semanas, relatando ausência de movimentos fetais há mais de 12 horas. Sem dor ou sangramento. Classificação: Laranja. Encaminhamento: Avaliação obstétrica urgente.
-Paciente com falta de ar aos mínimos esforços, tosse produtiva, chiado no peito. Saturação: 89%. Histórico de DPOC. Classificação: Laranja. Encaminhamento: Atendimento médico com suporte de oxigênio.
-Paciente com cefaleia intensa e rigidez de nuca. Temperatura: 39,2ºC. Relato de vômitos. Classificação: Laranja. Encaminhamento: Avaliação neurológica urgente e coleta de exames.
-Paciente com dor lombar crônica, sem irradiação, sem sinais de alarme. Mobilidade preservada. Classificação: Azul. Encaminhamento: Atendimento ambulatorial com analgesia simples.
-Paciente com taquicardia súbita, palpitações e tontura. Frequência cardíaca: 135 bpm. Classificação: Laranja. Encaminhamento: ECG urgente e avaliação médica.
-Paciente com dor de ouvido, febre baixa e leve irritação na garganta. Sem sinais de alarme. Classificação: Verde. Encaminhamento: Consultório clínico geral.
-Paciente com sangramento nasal abundante após trauma leve. Pressão arterial: 145/85 mmHg. Classificação: Amarela. Encaminhamento: Controle de sangramento e observação.
-Paciente com dor intensa no joelho esquerdo após entorse em jogo de futebol. Edema visível, sem deformidade. Classificação: Amarela. Encaminhamento: Avaliação ortopédica com raio-X.
-Paciente com tosse seca, dor torácica leve e cansaço. Sem febre. Classificação: Verde. Encaminhamento: Avaliação clínica de rotina.
-Paciente com dispneia súbita, cianose e confusão. Saturação: 82%. Classificação: Vermelha. Encaminhamento: Sala de emergência com oxigenoterapia imediata.
-Paciente com infecção urinária recorrente, disúria e urgência miccional. Afebril. Classificação: Verde. Encaminhamento: Avaliação médica e prescrição antibiótica.
-Paciente com trauma craniano leve, consciente, sem vômitos ou perda de memória. Classificação: Amarela. Encaminhamento: Observação neurológica.
-Paciente com reação alérgica cutânea moderada após ingestão de camarão. Sem sinais de anafilaxia. Classificação: Amarela. Encaminhamento: Administração de anti-histamínico e observação.
-Paciente com perda súbita de força no braço esquerdo, fala arrastada. Início há 30 minutos. Classificação: Vermelha. Encaminhamento: Protocolo AVC – avaliação neurológica urgente.
-
+Paciente com anemia falciforme, em crise vaso-oclusiva severa, apresentando dor incapacitante e hipoxemia. Classificação: Vermelha. Encaminhamento: Manejo da dor e suporte ventilatório.
+Paciente com esferocitose hereditária, em crise hemolítica aguda e esplenomegalia dolorosa. Classificação: Laranja. Encaminhamento: Suporte clínico e avaliação para esplenectomia.
+Paciente com anemia hemolítica autoimune, icterícia intensa e hemoglobinúria. Classificação: Vermelha. Encaminhamento: Pulsoterapia imunossupressora.
+Paciente com deficiência de G6PD, apresentando hemólise súbita após ingestão de alimentos oxidantes. Classificação: Vermelha. Encaminhamento: Suporte clínico e transfusional.
+Paciente com hemoglobinúria paroxística noturna, trombose mesentérica súbita e dor abdominal intensa. Classificação: Vermelha. Encaminhamento: Anticoagulação e suporte intensivo.
+Paciente com anemia associada à hemoglobinopatia C, quadro de icterícia progressiva e fadiga extrema. Classificação: Laranja. Encaminhamento: Suporte clínico e transfusional.
+Paciente com beta-talassemia maior, apresentando insuficiência cardíaca congestiva devido à sobrecarga férrica. Classificação: Vermelha. Encaminhamento: Suporte cardiológico e programa de quelantes.
+Paciente com síndrome de Evans, hemólise grave e plaquetopenia severa. Classificação: Vermelha. Encaminhamento: Terapia imunossupressora e suporte transfusional.
+Paciente com anemia hemolítica induzida por drogas, quadro de insuficiência renal aguda e hematúria. Classificação: Vermelha. Encaminhamento: Suspensão do agente causal e suporte clínico intensivo.
+Paciente com hemoglobinopatia instável, icterícia súbita e reticulocitose elevada. Classificação: Laranja. Encaminhamento: Suporte clínico e análise molecular.
+Paciente com hemofilia A grave, apresentando hematoma extenso após leve trauma. Classificação: Vermelha. Encaminhamento: Reposição urgente de fator VIII.
+Paciente com púrpura trombocitopênica trombótica (PTT), sintomas neurológicos súbitos e febre alta. Classificação: Vermelha. Encaminhamento: Plasmaférese emergencial.
+Paciente com trombocitopenia induzida por heparina, com trombose extensa em membro inferior. Classificação: Vermelha. Encaminhamento: Suspensão da heparina e anticoagulação alternativa.
+Paciente com insuficiência hepática grave, apresentando coagulopatia de consumo e sangramento difuso. Classificação: Vermelha. Encaminhamento: Suporte transfusional e correção da função hepática.
+Paciente com púrpura de Henoch-Schönlein, relatando dor abdominal intensa e hematúria. Classificação: Laranja. Encaminhamento: Monitoramento renal e suporte clínico.
+Paciente com deficiência de fator XIII, com sangramento intracraniano espontâneo. Classificação: Vermelha. Encaminhamento: Reposição do fator e suporte neurocirúrgico.
+Paciente gestante com síndrome de antifosfolípide, histórico de abortos recorrentes e trombose placentária. Classificação: Laranja. Encaminhamento: Anticoagulação preventiva e acompanhamento obstétrico.
+Paciente pós-cirurgia cardíaca, com sangramento prolongado e queda abrupta de hemoglobina. Classificação: Vermelha. Encaminhamento: Investigação de coagulopatia e suporte transfusional.
+Paciente com hemorragia pós-extração dentária, suspeita de doença de von Willebrand não diagnosticada. Classificação: Laranja. Encaminhamento: Reposição de fator e monitoramento.
+Paciente com púrpura hemorrágica idiopática, apresentando epistaxe grave e plaquetas extremamente baixas. Classificação: Vermelha. Encaminhamento: Pulsoterapia imunossupressora e suporte transfusional.
+Paciente com anemia aplástica severa, apresentando pancitopenia grave e febre alta. Classificação: Vermelha. Encaminhamento: Suporte transfusional e investigação etiológica.
+Paciente idoso com síndrome mielodisplásica, relatando fadiga incapacitante e necessidade de transfusões recorrentes. Classificação: Laranja. Encaminhamento: Avaliação para transplante de medula óssea.
+Paciente jovem com anemia de Fanconi, enfrentando crises de infecções graves e insuficiência medular progressiva. Classificação: Vermelha. Encaminhamento: Transplante de células-tronco hematopoéticas.
+Paciente com aplasia pura de série vermelha, apresentando queda rápida de hemoglobina e dispneia. Classificação: Vermelha. Encaminhamento: Investigação imunológica e tratamento imunossupressor.
+Paciente mulher com síndrome de Diamond-Blackfan, demonstrando resistência ao tratamento convencional e necessidade de suporte crônico. Classificação: Laranja. Encaminhamento: Monitoramento hematológico e terapia esteroide.
+Paciente pós-quimioterapia, com anemia grave e neutropenia febril. Classificação: Vermelha. Encaminhamento: Suporte transfusional e antibioticoterapia de amplo espectro.
+Paciente adolescente com anemia associada a insuficiência renal, relatando palidez extrema e hipoxemia. Classificação: Laranja. Encaminhamento: Terapia com eritropoetina e suporte nefrológico.
+Paciente com anemia refratária, enfrentando falência de múltiplas linhas celulares hematopoéticas. Classificação: Vermelha. Encaminhamento: Investigação genética e imunossupressão.
+Paciente mulher com anemia pós-parto severa, apresentando hipotensão e tontura incapacitante. Classificação: Vermelha. Encaminhamento: Correção volêmica e reposição de ferro intravenoso.
+Paciente com síndrome da hemoglobina instável, demonstrando icterícia intensa e reticulocitose elevada. Classificação: Laranja. Encaminhamento: Suporte clínico e análise molecular.
+Paciente com mielofibrose, apresentando hepatoesplenomegalia e anemia severa. Classificação: Laranja. Encaminhamento: Avaliação hematológica e suporte transfusional.
+Paciente idoso com mielodisplasia, neutropenia grave e febre alta. Classificação: Vermelha. Encaminhamento: Antibioticoterapia e monitoramento.
+Paciente com hemocromatose hereditária, apresentando insuficiência hepática e diabetes secundária. Classificação: Laranja. Encaminhamento: Terapia de flebotomia e suporte metabólico.
+Paciente jovem com aplasia pura de série vermelha, apresentando fadiga intensa e palidez cutânea. Classificação: Laranja. Encaminhamento: Investigação genética e imunossupressão.
+Paciente criança com leucemia mieloide aguda, sangramento gengival e febre alta. Classificação: Vermelha. Encaminhamento: Quimioterapia de indução imediata.
+Paciente com policitemia vera, apresentando trombose cerebral súbita. Classificação: Vermelha. Encaminhamento: Controle hematológico e anticoagulação.
+Paciente mulher com esplenomegalia idiopática, pancitopenia progressiva. Classificação: Laranja. Encaminhamento: Avaliação hematológica e possível esplenectomia.
+Paciente pós-quimioterapia, aplasia medular completa. Classificação: Vermelha. Encaminhamento: Suporte transfusional e monitoramento imunológico.
+Paciente homem jovem com hemoglobina instável, icterícia súbita e crise hemolítica. Classificação: Laranja. Encaminhamento: Suporte clínico e análise molecular.
+Paciente com síndrome mielodisplásica avançada, anemia severa e infecções recorrentes. Classificação: Vermelha. Encaminhamento: Transplante de medula óssea.
+Paciente com imunodeficiência primária, apresentando febre persistente e infecções recorrentes. Classificação: Laranja. Encaminhamento: Investigação imunológica urgente.
+Paciente criança com síndrome de DiGeorge, hipocalcemia severa e sinais de tetania. Classificação: Vermelha. Encaminhamento: Suporte metabólico e imunológico.
+Paciente com HIV avançado, febre alta e pneumonia oportunista. Classificação: Vermelha. Encaminhamento: Terapia antirretroviral e suporte intensivo.
+Paciente mulher com síndrome de Sjögren, xerostomia intensa e úlcera corneana. Classificação: Laranja. Encaminhamento: Suporte oftalmológico e imunológico.
+Paciente com síndrome de hiper-IgE, abscessos cutâneos múltiplos e pneumonias recorrentes. Classificação: Vermelha. Encaminhamento: Investigação genética e terapia imunomoduladora.
+Paciente criança com agamaglobulinemia, septicemia grave. Classificação: Vermelha. Encaminhamento: Infusão de imunoglobulina e antibioticoterapia.
+Paciente jovem com síndrome de ativação macrofágica, febre persistente e falência de múltiplos órgãos. Classificação: Vermelha. Encaminhamento: Suporte intensivo e imunossupressão.
+Paciente com granulomatose crônica, apresentando infecção pulmonar refratária. Classificação: Laranja. Encaminhamento: Terapia antimicrobiana prolongada.
+Paciente mulher com lúpus eritematoso sistêmico, crise lúpica com nefrite grave. Classificação: Vermelha. Encaminhamento: Pulsoterapia e suporte renal.
+Paciente com síndrome de imunodeficiência adquirida secundária, pancitopenia e infecções oportunistas graves. Classificação: Vermelha. Encaminhamento: Manejo multidisciplinar urgente.

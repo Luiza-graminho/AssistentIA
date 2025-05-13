@@ -19,7 +19,7 @@ Settings.llm = llm
 chroma_client = chromadb.PersistentClient(path="./chroma_db")
 
 # Define o nome da coleção (como uma "tabela") onde os dados serão armazenados
-collection_name = "triagem_hci"
+collection_name = "imunidade"
 
 # Lista as coleções existentes no banco de dados (SELECT * FROM collections)
 collections = chroma_client.list_collections()
@@ -31,17 +31,17 @@ else:
     collection = chroma_client.create_collection(name=collection_name)
 
 # Mostra o título da interface da aplicação no navegador
-st.title("Assistente de Triagem Clínica - HCI")
+st.title("Assistente de Doenças do Sangue e dos Órgãos Hematopoéticos e alguns Transtornos imunitários")
 
 # Cria um campo de texto onde enfermeiro(a) (ou outro profissional de saúde) pode informar os sintomas do paciente
-new_case = st.text_area("Descreva os sintomas do paciente na triagem")
+new_case = st.text_area("Descreva os sintomas")
 
 # Quando o botão é clicado, o sistema começa a análise
-if st.button("Classificar e gerar conduta"):
+if st.button("Analisar possíveis diagnósticos"):
     # Verifica se o campo de texto com os sintomas foi preenchido
     if new_case:
         # Mostra um spinner (indicador visual) enquanto o processamento ocorre
-        with st.spinner("Classificando..."):
+        with st.spinner("Analisando..."):
 
             # Importa e carrega o modelo de embeddings (vetorização) 
             from sentence_transformers import SentenceTransformer
@@ -119,12 +119,12 @@ if st.button("Classificar e gerar conduta"):
             # Tenta executar a consulta ao modelo (via Ollama)
             try:
                 resposta = llm.chat(messages)  # Envia as mensagens para o modelo e recebe resposta
-                st.subheader("Resultado da Triagem")
+                st.subheader("Resultado da Análise")
                 st.write(str(resposta))  # Exibe o resultado na interface web
             except Exception as e:
                 # Em caso de erro, mostra uma mensagem de erro na interface
                 st.error(f"Ocorreu um erro ao consultar o modelo: {e}")
     else:
         # Caso o usuário não preencha os sintomas, exibe aviso
-        st.warning("Por favor, insira os sintomas do paciente.")
+        st.warning("Por favor, insira os sintomas.")
 
